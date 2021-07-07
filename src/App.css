@@ -1,0 +1,57 @@
+body{
+  text-align: center;
+}
+li{
+  text-decoration: none !important;
+  color: white;
+  display: inline-block;
+  padding: 0 15px;
+  list-style: none !important; 
+}
+li:hover{
+  background-color: black;
+}
+
+.productContainer{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  
+}
+.productContainer > div{
+  padding: 20px;
+  width: 290px;
+  text-align: center;
+  box-shadow: 0 0 10px gray;
+  margin: 10px;
+}
+.productContainer > div:hover{
+  background-color: rgb(209, 192, 34);
+}
+.appBar{
+  background-color: rgb(209, 192, 34) !important;
+}
+.link{
+  text-decoration: none;
+  color: black;
+}
+.link:hover{
+  color: white;
+}
+.productDetail{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  
+}
+.productDetail > div{
+  padding: 20px;
+  width: 500px;
+  text-align: center;
+  box-shadow: 0 0 10px gray;
+  margin: 10px;
+}
+.productDetail > div:hover{
+  background-color: rgb(209, 192, 34);
+}
+
